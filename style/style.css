@@ -1,0 +1,228 @@
+:root{
+    --grayColor: #777777;
+    --whiteColor: #FFFFFF;
+    --darkGrayColor: rgb(196, 196, 196);
+} 
+
+#name {
+     color: var(--grayColor);
+     text-decoration: none;
+     font-size: 25px;
+    font-family: 'Solway', serif;
+ }
+
+ .navbar-nav {
+     text-align: center;
+     font-family: 'Solway', serif;
+ }
+ .parallax {
+     background-image: url(../images/parallax1.png);
+     height: 500px;
+     width: 100%;
+     background-attachment: fixed;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     left: 0;
+ }
+
+ .parallax > h1 {
+     text-align: center;
+     padding-top: 5em;
+     color: var(--whiteColor);
+     font-family: 'Solway', serif;
+ }
+
+ .parallax > h3 {
+     text-align: center;
+     padding-top: 2em;
+     color: var(--whiteColor);
+     font-family: 'Solway', serif;
+ }
+
+ .parallax2 {
+     background-image: url(../images/classroom.jfif);
+     height: 500px;
+     width: 100%;
+     background-attachment: fixed;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     left: 0;
+ }
+
+ .parallax2 > h1 {
+     text-align: center;
+     padding-top: 5em;
+     color: var(--whiteColor);
+     font-family: 'Solway', serif;
+ }
+
+.aboutme {
+    padding-top: 1.5em;
+    font-family: 'Solway', serif;
+}
+
+ #aboutme {
+     text-align: center;
+     font-family: 'Solway', serif;
+ }
+
+ #profile {
+     height: 100%;
+ }
+
+ #courses {
+     padding-top: 1.5em;
+     text-align: center;
+     font-family: 'Solway', serif;
+ }
+
+ #extra {
+     padding-top: 1.5em;
+     padding-bottom: 1.5em;
+     text-align: center;
+     font-family: 'Solway', serif;
+ }
+
+
+ #extraImage, #extraImage2 {
+     height: 60%;
+     width: 330px;
+     border: 1px solid black;
+     
+ }
+
+ #extraImage1 {
+     height: 267px;
+     width: 330px;
+     border: 1px solid black;
+     margin-top: -50px;
+ }
+
+ #contentExtra {
+     padding-top: 5em;
+     font-family: 'Solway', serif;
+ }
+
+#contentExtra1 {
+    font-family: 'Solway', serif;
+}
+
+a {
+    font-family: 'Solway', serif;
+}
+
+p {
+    font-family: 'Solway', serif;
+}
+
+button {
+    font-family: 'Solway', serif;
+}
+
+ /*Form CSS*/
+
+ form {
+     padding-top: 3em;
+     background-color: var(--darkGrayColor);
+     left: 0;
+     font-family: 'Solway', serif;
+ }
+
+ #contact {
+     text-align: center;
+     font-family: 'Solway', serif;
+ }
+
+ h2 {
+     font-size: 35px;
+     font-family: 'Solway', serif;
+ }
+
+ form > #para {
+     padding-bottom: 1em;
+     font-family: 'Solway', serif;
+ }
+
+ label {
+     font-size: 18px;
+     font-weight: bold;
+     font-family: 'Solway', serif;
+ }
+
+ @media screen and (max-width:768px) {
+     .form-group {
+         padding-left: 2em;
+         padding-right: 2em;
+     }
+
+     #profile {
+         height: 330px;
+     }
+     
+     #extraImage {
+         margin-top: 50px;
+     }
+     
+     #extraImage1 {
+        margin-top: 50px;
+     }
+     
+     #contentExtra1 {
+         margin-top: -50px;
+     }
+
+ }
+
+ @media screen and (min-width:768px) {
+     .form-group {
+         padding-left: 2em;
+         padding-right: 2em;
+     }
+
+     #profile {
+         height: 330px;
+     }
+
+     #image {
+         margin-top: 10em;
+     }
+     
+     #image1 {
+         padding-top: 10.5em;
+         padding-bottom: 5em;
+     }
+     
+ }
+
+ @media screen and (min-width:992px) {
+     #extraImage {
+         width: 330px;
+         height: 267px;
+     }
+     
+     #image {
+         margin-top: 6em;
+     }
+
+     #imageProfile {
+         padding-top: 4em;
+     }
+     
+     #contentExtra1 {
+         padding-top: 7em;
+     }
+     
+ }
+
+ @media screen and (max-width:992px) {
+     #extraImage {
+         width: 330px;
+         height: 267px;
+     }
+     
+     #content {
+        margin-top: 100px;
+     }
+ }
