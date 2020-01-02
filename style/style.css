@@ -190,6 +190,9 @@ button {
      #contentExtra1 {
          margin-top: -50px;
      }
+     #name {
+         font-size: 16px;
+     }
 
  }
 
